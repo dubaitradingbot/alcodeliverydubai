@@ -134,3 +134,27 @@ footer {
     min-width: unset;
   }
 }
+
+.floating-whatsapp {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 1000;
+  background: #25d366;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  padding: 12px;
+  transition: box-shadow 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.floating-whatsapp:hover {
+  box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+  background: #128c7e;
+}
+.floating-whatsapp img {
+  width: 48px;
+  height: 48px;
+  display: block;
+}
